@@ -1,21 +1,4 @@
-
-
-```sh
-python wifi-qr-generator.py -h
-usage: wifi-qr-generator.py [-h] [-l LENGTH] [-o OUTPUT]
-
-Generate WiFi QR code with emoji SSID
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -l LENGTH, --length LENGTH
-                        Password length (8-63, default: 63)
-  -o OUTPUT, --output OUTPUT
-                        Output filename (default: wifi_qr.png)
-
-
-```
-
+# To generate a new WPA3 wifi password.
 
 ```sh
 python wifi-qr-generator.py
@@ -79,3 +62,26 @@ Scan this QR code with your phone:
 
 QR code also saved to wifi_qr.png
 ```
+
+
+# Usage
+
+
+
+```sh
+python wifi-qr-generator.py -h
+usage: wifi-qr-generator.py [-h] [-l LENGTH] [-o OUTPUT]
+
+Generate WiFi QR code with emoji SSID
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -l LENGTH, --length LENGTH
+                        Password length (8-63, default: 63)
+  -o OUTPUT, --output OUTPUT
+                        Output filename (default: wifi_qr.png)
+
+
+```
+
+
