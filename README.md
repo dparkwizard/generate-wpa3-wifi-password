@@ -18,10 +18,6 @@ optional arguments:
 
 
 ```sh
-
-python wifi-qr-generator.py 
-
-
 python wifi-qr-generator.py
 
 WiFi Connection Details:
